@@ -16,7 +16,7 @@ struct TransactionRow: View {
                 .fill(Color.icon1.opacity(0.3))
                 .frame(width: 44, height: 44)
                 .overlay {
-                    FontIcon.text(.awesome5Solid(code: .icons), fontsize: 24, color: Color.icon1)
+                    FontIcon.text(.awesome5Solid(code: transaction.icon), fontsize: 24, color: Color.icon1)
                 }
             VStack(alignment: .leading, spacing: 6){
 //                MARK: Transaction Merchant
